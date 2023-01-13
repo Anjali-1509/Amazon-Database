@@ -1,0 +1,23 @@
+const { default: mongoose } = require("mongoose")
+const express = require("mongoose")
+let ObjectId= mongoose.Schema.Types.ObjectId
+
+let productSchema = new mongoose.Schema({
+ name : {
+    type: String,
+    requied: true
+ },
+ description : String,
+ Price : Number,
+ rating : Number,
+seller : {
+  type: ObjectId,
+  ref : "Seller"
+},
+buyer: {
+   type: ObjectId,
+   ref : "Buyer"
+}
+})
+
+module.exports = mongoose.model("Product", productSchema)

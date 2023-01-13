@@ -1,0 +1,23 @@
+{
+  "name": "amazon-database",
+  "version": "1.0.0",
+  "description": "Amazon-Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anjali-1509/Amazon-Database.git"
+  },
+  "author": "Anjali Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anjali-1509/Amazon-Database/issues"
+  },
+  "homepage": "https://github.com/Anjali-1509/Amazon-Database#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  }
+}
